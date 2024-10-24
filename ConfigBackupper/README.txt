@@ -14,4 +14,4 @@ Aby program działał należy:
 - upewnić się że pliki w katalogu shells mają uprawnienia wykonywania przez wszystkich (np. chmod 775)
 
 Dalsze instrukcje pojawią się po uruchomieniu pliku cfgbackup.
-Kod źródłowy napisany w języku C++ jest ukryty w katalogu '.src'.
+Kod źródłowy napisany w C++ jest w katalogu 'src'.
