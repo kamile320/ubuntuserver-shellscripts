@@ -15,3 +15,6 @@ sudo cp /etc/dhcp/dhcpd.conf bak_out/dhcpd.conf.bak
 
 echo kopiowanie isc-dhcp-server[2]...
 sudo cp /etc/default/isc-dhcp-server bak_out/isc-dhcp-server.bak
+
+echo kopiowanie samba...
+sudo cp /etc/samba/smb.conf bak_out/smb.conf.bak

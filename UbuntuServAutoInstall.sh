@@ -1,11 +1,12 @@
 #!/bin/bash
+#PacakageInstaller v1.1
 
 #Update Repo
 sudo apt update -y
 #Pakiety
 sudo apt install mc lynx net-tools traceroute nmap hwinfo atop duplicity libpam-pwquality cifs-utils smartmontools nano file
 #Dodatkowe
-sudo apt install git bashtop xsysinfo
+sudo apt install git bashtop xsysinfo neofetch 
 #Serwery
 sudo apt install apache2 samba vsftpd isc-dhcp-server
 #Upgrade
@@ -24,4 +25,3 @@ sudo reboot now
 #Opcjonalnie - "zahashtaguj" sudo reboot now i odhashtaguj:
 
 #git clone https://github.com/GuillaumeGomez/sysinfo.git
-
