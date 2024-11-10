@@ -3,9 +3,9 @@ using namespace std;
 
 int main(){
     int mode, check;
-    int ver = 1.1; 
+    int ver = 1.2; 
     cout << "====Backupper Configów===================" << endl;
-    cout << "Program kopiuje/importuje kopie\nplików konfiguracyjnych danych usług:\n- netplan\n- vsftpd\n- isc-dhcp-server" << endl << endl;
+    cout << "Program kopiuje/importuje kopie\nplików konfiguracyjnych danych usług:\n- netplan\n- vsftpd\n- isc-dhcp-server\n- samba\n- apache2" << endl << endl;
     cout << "Program robi import/export tylko plików\nktóre konfigurujemy w zadaniach!!!" << endl;
     cout << "========================================" << endl << endl;
 

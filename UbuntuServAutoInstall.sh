@@ -1,16 +1,18 @@
 #!/bin/bash
-#PacakageInstaller v1.1
+#PacakageInstaller v1.2
 
 #Update Repo
 sudo apt update -y
 #Pakiety
-sudo apt install mc lynx net-tools traceroute nmap hwinfo atop duplicity libpam-pwquality cifs-utils smartmontools nano file
+sudo apt install -y mc lynx net-tools traceroute nmap hwinfo atop duplicity libpam-pwquality cifs-utils smartmontools nano file
 #Dodatkowe
-sudo apt install git bashtop xsysinfo neofetch 
+sudo apt install -y git bashtop xsysinfo neofetch 
 #Serwery
-sudo apt install apache2 samba vsftpd isc-dhcp-server
+sudo apt install -y apache2 samba vsftpd isc-dhcp-server
+#Serwery - DNS
+sudo apt install -y bind9 bind9utils bind9-doc dnsutils
 #Upgrade
-sudo apt upgrade
+sudo apt upgrade -y
 #Apache
 sudo a2enmod userdir
 #Reboot
