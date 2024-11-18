@@ -20,4 +20,4 @@ Kod źródłowy napisany w C++ jest w katalogu 'src'.
 Uwaga!
 Plik binarny może nie działać na każdym systemie operacyjnym
 (Testowany na Ubuntu 22.04 (Live OS), Arch Linux (VM))
-Jeśli pojawiają się błędy, należy skompilować na nowo plik .cpp z katalogu 'src' (np. g++ cfgbackup.cpp -o cfgbackup)
+Jeśli pojawiają się błędy, należy skompilować na nowo plik .cpp z katalogu 'src' (np. g++ cfgbackup.cpp -o cfgbackup, lub uruchomić 'build.sh')
