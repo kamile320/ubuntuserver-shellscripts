@@ -1,12 +1,12 @@
 #!/bin/bash
-#PacakageInstaller v1.2
+#PacakageInstaller v1.3
 
 #Update Repo
 sudo apt update -y
 #Pakiety
 sudo apt install -y mc lynx net-tools traceroute nmap hwinfo atop duplicity libpam-pwquality cifs-utils smartmontools nano file
 #Dodatkowe
-sudo apt install -y git bashtop xsysinfo neofetch 
+sudo apt install -y git bashtop xsysinfo neofetch hwinfo lshw lshw-gtk tree g++ network-manager
 #Serwery
 sudo apt install -y apache2 samba vsftpd isc-dhcp-server
 #Serwery - DNS
