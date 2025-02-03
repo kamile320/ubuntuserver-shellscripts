@@ -29,12 +29,15 @@ sleep 1
 
 #Flatpak
 echo "Czy chcesz pobrać flatpak i przydatne programy?"
+echo "Aktualnie flatpak działa tylko na systemach gdzie"
+echo "jest już skonfigurowany automatycznie lub ręcznie."
 echo "Następujące pakiety/programy zostaną zainstalowane:"
 echo "(APT) flatpak"
 echo "(Flatpak) VisualStudioCode, GithubDesktop, Discord"
 read -p "Type anything to continue (Ctrl-C to cancel)"
 
 #Flatpak-Install
+sudo apt install flatpak
 sudo flatpak install com.visualstudio.code
 sudo flatpak install io.github.shiftey.Desktop
 sudo flatpak install com.discordapp.Discord
