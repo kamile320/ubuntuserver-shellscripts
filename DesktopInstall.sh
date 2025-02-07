@@ -1,6 +1,6 @@
 #!/bin/bash
-#DesktopInstall v1.0
-echo "Instalator Pakietów v1.0 (Ubuntu Desktop)"
+#DesktopInstall v1.1
+echo "Instalator Pakietów v1.1 (Ubuntu Desktop)"
 echo "Skrypt pobierze przydatne pakiety i programy dla Ubuntu Desktop"
 sleep 3
 read -p "Type anything to continue (need root privileges)"
@@ -8,7 +8,7 @@ read -p "Type anything to continue (need root privileges)"
 #Update Repo
 sudo apt update -y
 #Install
-sudo apt install neofetch git mc nano lynx net-tools network-manager traceroute nmap hwinfo atop lshw lshw-gtk tree g++ gparted
+sudo apt install neofetch git mc nano lynx net-tools network-manager traceroute nmap hwinfo atop lshw lshw-gtk tree g++ gparted inkscape gimp
 
 #Bashtop
 #atop, btop i bashtop to podobne programy (Szczególnie btop i bashtop)
